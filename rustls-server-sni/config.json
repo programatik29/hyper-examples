@@ -1,0 +1,12 @@
+[
+{
+	"name": "localhost",
+	"key_location": "certs/key.pem",
+	"cert_location": "certs/cert.pem"
+},
+{
+	"name": "localtest",
+	"key_location": "certs/key.pem",
+	"cert_location": "certs/cert.pem"
+}
+]

@@ -1,0 +1,15 @@
+[package]
+name = "rustls-websocket"
+version = "0.1.0"
+authors = ["Programatik <programatik29@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.3.15"
+tokio = { version = "1.9.0", features = ["rt", "rt-multi-thread", "macros", "net"]  }
+rustls = "0.19.1"
+tokio-rustls = "0.22.0"
+hyper = { version = "0.14.11", features = ["runtime", "server", "http1", "http2"] }
+tokio-tungstenite = "0.15.0"
+sha-1 = "0.9.7"
+base64 = "0.13.0"

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h2>Websocket With TLS</h2>
+
+	<script>
+const websocket = new WebSocket("wss://localhost:3443/websocket");
+
+websocket.onopen = function() {
+	console.log("connection opened");
+	websocket.send("echo this back to me");
+}
+
+websocket.onmessage = function(e) {
+	console.log("received message: "+e.data);
+}
+	</script>
+</body>
+</html>

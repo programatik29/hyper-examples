@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+	"rustls-server",
+	"rustls-client",
+	"rustls-server-sni",
+	"rustls-websocket",
+	"websocket-chat"
+]
